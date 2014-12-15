@@ -1,0 +1,64 @@
+﻿<Window x:Class="lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="550" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <ComboBox Name="ComboBox1" SelectionChanged="ComboBox1_SelectionChanged">
+                
+            </ComboBox>
+            <TextBox Grid.Row="1" Name="TextBox1" Grid.Column="1" AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
+        </Grid>
+        <StackPanel>
+            <Label HorizontalAlignment="Center">Пошук</Label>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Назва:</TextBlock>
+                <ComboBox Name="TextBox2" Margin="5"></ComboBox>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Автор:</TextBlock>
+                <ComboBox Name="TextBox3" Margin="5"></ComboBox>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Видавництво:</TextBlock>
+                <ComboBox Name="TextBox4" Margin="5"></ComboBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Рік випуску:</TextBlock>
+                <ComboBox Name="TextBox5" Margin="5"></ComboBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Кількість сторінок:</TextBlock>
+                <ComboBox Name="TextBox6" Margin="5"></ComboBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Тираж:</TextBlock>
+                <ComboBox Name="TextBox7" Margin="5"></ComboBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center">Мова:</TextBlock>
+                <ComboBox Name="TextBox8" Margin="5"></ComboBox>
+            </StackPanel>
+            <Border>
+                <Button Click="Search_Click">Шукати</Button>
+            </Border>
+            <Border>
+                <Button Click="Transform">Трансформувати</Button>
+            </Border>
+            
+        </StackPanel>
+        
+    
+    </Grid>
+</Window>

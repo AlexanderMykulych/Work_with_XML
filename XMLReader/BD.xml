@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+
+<libraryDatabase>
+	<book NAME = "Leaving Time: A Novel">
+		<info autor ="Jodi Picoult" publishingHouse = "Alan" year = "1994" pageCount = "600" printingCount = "500" language = "Russian"/>
+	</book>
+	<book NAME = "Guardians of the Night">
+		<info autor ="Alan Russell" publishingHouse = "Aber" year = "1999" pageCount = "416" printingCount = "3000" language = "Russian"/>
+	</book>
+	<book NAME = "The Last Passenger">
+		<info autor ="Manel Loureiro, Angela Dawe, Andres" publishingHouse = "Grecham" year = "2000" pageCount = "320" printingCount = "3000" language = "Russian"/>
+		
+	</book>
+	<book NAME = "Fatal Puzzle (Zons Crime Book 1)">
+		<info autor ="Catherine Shepherd, Julia Knobloch" publishingHouse = "DDC" year = "1990" pageCount = "352" printingCount = "2000" language = "Russian"/>
+	</book>
+	<book NAME = "Gray Mountain: A Novel">
+		<info autor ="John Grisham" publishingHouse = "Rarite" year = "1960" pageCount = "576" printingCount = "3000" language = "Russian"/>
+	</book>
+	<book NAME = "Big Little Lies">
+		<info autor ="Liane Moriarty" publishingHouse = "Coba" year = "2005" pageCount = "272" printingCount = "5000" language = "Russian"/>
+	</book>
+	<book NAME = "To Kill a Mockingbird">
+		<info autor ="Harper Lee" publishingHouse = "Great" year = "2014" pageCount = "192" printingCount = "4000" language = "Russian"/>
+	</book>
+	<book NAME = "My Sister's Grave">
+		<info autor ="Robert Dugoni" publishingHouse = "KKK" year = "2011" pageCount = "352" printingCount = "2000" language = "Russian"/>
+	</book>
+
+
+</libraryDatabase>
